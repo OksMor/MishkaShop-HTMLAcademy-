@@ -1,4 +1,3 @@
-# MishkaShop-HTMLAcademy-
-Учебный макет взят из продвинутого курса по HTML+CSS (2017) от HTMLAcademy
+Адаптивная верстка mobile / tablet / desktop "flex"
 
-Адаптивная верстка mobile / tablet / desktop
+Макет - Mishka от HTML Academy (https://htmlacademy.ru)
