@@ -1,0 +1,84 @@
+.main-intro {
+  text-align: center;
+}
+
+.main-intro__slogan {
+  font-size: 27px;
+  line-height: 30px;
+  font-weight: 700;
+  margin: 75px 30px 0px 30px;
+}
+
+.main-intro__menu {
+  margin: 0;
+  padding: 0;
+}
+
+.main-intro__item {
+  list-style: none;
+}
+
+.main-intro__link {
+  display: block;
+  padding: 28px 105px 28px 30px;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+
+  &-interior {
+    background: #63d1bb url(../img/interior.png) no-repeat right 30px top 19px;
+  }
+
+  &-toys {
+    background: #56c3b2 url(../img/toys.png) no-repeat right 20px top 19px;
+  }
+
+  &-interior:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px -5px 0px 0px rgba(99, 209, 187, 1);
+    box-shadow: 0px 5px 0px 0px rgba(99, 209, 187, 1);
+  }
+
+  &-toys:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px -5px 0px 0px rgba(86, 195, 178, 1);
+    box-shadow: 0px 5px 0px 0px rgba(86, 195, 178, 1);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (min-width: @tablet-width) {
+
+  .main-intro__slogan {
+    margin: 165px 130px 370px;
+    font-size: 43px;
+    line-height: 50px;
+  }
+
+  .main-intro__menu {
+    display: flex;
+  }
+
+  .main-intro__link {
+    padding: 36px 170px 36px 30px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+
+  .main-intro__slogan {
+    margin: 160px 260px 350px;
+    font-size: 53px;
+    line-height: 57px;
+  }
+
+  .main-intro__link {
+    padding: 36px 350px 36px 30px;
+  }
+}

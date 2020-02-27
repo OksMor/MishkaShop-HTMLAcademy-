@@ -198,7 +198,6 @@
     display: none;
   }
 
-  .header-navigation__items,
   .header-navigation__items {
     display: flex;
     flex-grow: 0;
@@ -221,25 +220,23 @@
     }
   }
 
-  .header-navigation__items--1
-  .header-navigation__item:first-child
-  .header-navigation__link{
+  .header-navigation__link--katalog {
     padding-left: 0;
+    background: transparent;
   }
 
-  .header-navigation__items--1
-  .header-navigation__item:last-child
-  .header-navigation__link{
+  .header-navigation__link--order {
     padding-left: 36px;
     border: 0;
-    border-top: 1px solid  #ececec;
+    background: transparent;
   }
 
-  .header-navigation__items--2
-  .header-navigation__item {
+  .header-navigation__item--2 {
     border-left: 1px solid  #ececec;
   }
-
+  .header-navigation__item--1 {
+    z-index: 10;
+  }
   .header-navigation__link {
 
     &--search {
@@ -267,7 +264,7 @@
     text-align: right;
     flex-grow: 1;
     order: 2;
-    border-top: 1px solid  #ececec;
+    z-index: 10;
   }
 }
 
@@ -294,35 +291,29 @@
     }
   }
 
-  .header-navigation__items--1
-  .header-navigation__item:first-child
-  .header-navigation__link{
+  .header-navigation__link--katalog {
     border-top: 0;
     border-right: 1px solid  #ececec;
-    border-bottom: 1px solid  #ececec;
     padding: 24px 35px 34px 0;
   }
 
-  .header-navigation__items--1
-  .header-navigation__item:last-child
-  .header-navigation__link{
+  .header-navigation__link--order{
     border-top: 0;
     padding: 24px 0 34px 35px;
-    border-bottom: 1px solid  #ececec;
   }
 
-  .header-navigation__items--3
-  .header-navigation__item:first-child
-  .header-navigation__link{
+  .header-navigation__link--news{
     padding: 24px 35px 34px 0;
     border: 0;
+    background: transparent;
+    z-index: 10;
   }
 
-  .header-navigation__items--3
-  .header-navigation__item:last-child
-  .header-navigation__link{
+  .header-navigation__link--sell {
     padding: 24px 0 34px 5px;
     border: 0;
+    background: transparent;
+    z-index: 10;
   }
 
   .header-navigation__title {

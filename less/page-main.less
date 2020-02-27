@@ -1,0 +1,31 @@
+.page-main {
+  margin: 0 auto;
+  width: 320px;
+  height: 490px;
+  border-top: 1px solid #ececec;
+  background: #f9f9f9 url("../img/hero-mobile.jpg") no-repeat center -18px;
+  background-size: 320px 372px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: @tablet-width) {
+  .page-main {
+    width: 768px;
+    position: relative;
+    background: #f9f9f9 url("../img/hero-tablet.jpg") no-repeat;
+    background-position: center top;
+    background-size: 768px 746px;
+    top: -83px;
+    min-height: 750px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-main {
+    width: 1150px;
+    background: #f9f9f9 url("../img/hero-desktop.jpg") no-repeat;
+    background-size: 1250px 746px;
+  }
+}
