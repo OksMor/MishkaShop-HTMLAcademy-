@@ -6,7 +6,7 @@
   font-size: 27px;
   line-height: 30px;
   font-weight: 700;
-  margin: 75px 30px 0px 30px;
+  margin: 75px 30px 120px 30px;
 }
 
 .main-intro__menu {
@@ -60,13 +60,24 @@
     font-size: 43px;
     line-height: 50px;
   }
-
   .main-intro__menu {
     display: flex;
   }
-
+  .main-intro__item {
+    flex-shrink: 0;
+  }
   .main-intro__link {
-    padding: 36px 170px 36px 30px;
+    padding: 36px 170px 36px 50px;
+    width: 386px;
+    box-sizing: border-box;
+
+    &-interior {
+      background: #63d1bb url(../img/interior.png) no-repeat right 50px top 19px;
+    }
+
+    &-toys {
+      background: #56c3b2 url(../img/toys.png) no-repeat right 40px top 19px;
+    }
   }
 }
 
@@ -79,6 +90,8 @@
   }
 
   .main-intro__link {
-    padding: 36px 350px 36px 30px;
+    padding: 36px 350px 36px 50px;
+    width: 575px;
+    box-sizing: border-box;
   }
 }
