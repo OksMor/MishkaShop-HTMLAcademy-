@@ -50,10 +50,29 @@ body {
   line-height: 20px;
   font-family: 'Open Sans', Arial, sans-serif;
   text-transform: uppercase;
-//  text-decoration: none;
+  text-decoration: none;
 //  vertical-align: top;
   background-color: #ffffff;
   border: 2px solid #000000;
 //  outline: none;
   cursor: pointer;
+}
+
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+@media (min-width: @tablet-width) {
+  h2 {
+    font-size: 43px;
+    line-height: 50px;
+  }
+}
+@media (min-width: @desktop-width) {
+  h2 {
+    font-size: 53px;
+    line-height: 57px;
+  }
 }
