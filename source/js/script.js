@@ -11,4 +11,4 @@ navToggle.addEventListener('click', function() {
     nav.classList.add('header-navigation--closed');
     nav.classList.remove('header-navigation--opened');
   }
-});
+})

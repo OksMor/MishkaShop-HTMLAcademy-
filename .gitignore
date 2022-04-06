@@ -10,3 +10,6 @@ css/*.css
 *.pdf
 npm-debug.*
 Thumbs.db
+.vscode
+source/css/*.css
+source/css/*.map

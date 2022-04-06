@@ -22,13 +22,13 @@
   &:hover {
     opacity: 0.6;
   }
+
   &:active {
     opacity: 0.3;
   }
 }
 
 @media (min-width: @tablet-width) {
-
   .header-logo {
     padding: 0;
   }
@@ -40,7 +40,6 @@
 }
 
 @media (min-width: @desktop-width) {
-
   .header-logo--img {
     width: 149px;
     height: 72px;
@@ -50,7 +49,7 @@
 .header-navigation__toggle {
   position: absolute;
   top: 32px;
-  right: 0px;
+  right: 0;
   z-index: 2;
   display: block;
   width: 22px;
@@ -68,8 +67,8 @@
 .header-navigation--closed .header-navigation__toggle::before {
   content: "";
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   width: 22px;
   height: 2px;
   background-color: #000000;
@@ -77,7 +76,6 @@
 }
 /*----------------------------------------------------------------------------*/
 .header-navigation--opened .header-navigation__toggle {
-
   &::before,
   &::after {
     content: "";
@@ -100,7 +98,6 @@
 }
 /*----------------------------------------------------------------------------*/
 @media (max-width: @mobile-width-only) {
-
   .header-navigation--closed .header-navigation__item {
     display: none;
   }
@@ -158,12 +155,12 @@
 
   &--icon-search {
     position: absolute;
-    left: 0px;
+    left: 0;
   }
 
   &--icon-cart {
     position: absolute;
-    left: 0px;
+    left: 0;
   }
 }
 
@@ -183,13 +180,13 @@
   &:hover {
     color: rgba(0, 0, 0, 0.6);
   }
+
   &:active {
     color: rgba(0, 0, 0, 0.3);
   }
 }
 
 @media (min-width: @tablet-width) {
-
   .header-navigation {
     justify-content: space-between;
   }
@@ -234,11 +231,12 @@
   .header-navigation__item--2 {
     border-left: 1px solid  #ececec;
   }
+
   .header-navigation__item--1 {
     z-index: 10;
   }
-  .header-navigation__link {
 
+  .header-navigation__link {
     &--search {
       font-size: 0;
       border-top: 0;
@@ -251,7 +249,7 @@
 
     &--cart {
       border-top: 0;
-      padding: 24px 0px 34px 95px;
+      padding: 24px 0 34px 95px;
     }
 
     &--icon-cart {
@@ -269,13 +267,11 @@
 }
 
 @media (min-width: @desktop-width) {
-
   .header-logo {
     order: 1;
   }
 
   .header-navigation__items {
-
     &--1 {
       order: 0;
     }
@@ -297,12 +293,12 @@
     padding: 24px 35px 34px 0;
   }
 
-  .header-navigation__link--order{
+  .header-navigation__link--order {
     border-top: 0;
     padding: 24px 0 34px 35px;
   }
 
-  .header-navigation__link--news{
+  .header-navigation__link--news {
     padding: 24px 35px 34px 0;
     border: 0;
     background: transparent;
